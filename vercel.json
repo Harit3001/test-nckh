@@ -1,0 +1,10 @@
+{
+  "buildCommand": "cd his-noi-tru && npm run build",
+  "outputDirectory": "his-noi-tru/dist",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
